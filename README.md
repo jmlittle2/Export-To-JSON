@@ -8,7 +8,7 @@
 
 # Description
 
-This sample application demonstrates how to extract Revit data on your BIM360 account, into an excel spreadsheet and JSON.  The sample code demonstates 3-legged OAuth to BIM360, a simple viewer extension and code to handle Revit meta-data and format it into an excel spreadsheet file.
+This application demonstrates how to extract Revit data on your BIM360 account, into an excel spreadsheet and JSON.  The code demonstates 3-legged OAuth to BIM360, a simple viewer extension and code to handle Revit meta-data and format it into an excel spreadsheet file and JSON source file.
 
 ### Live version
 
@@ -18,7 +18,7 @@ This sample application demonstrates how to extract Revit data on your BIM360 ac
 
 # Setup
 
-For using this sample, you need to log into your Autodesk developer account. Visit the [Forge Developer Portal](https://developer.autodesk.com) and sign up for an account, then [create an app](https://developer.autodesk.com/myapps/create). When asked for the 'callback URL' in your new app, use **http://localhost:3000/api/forge/callback/oauth**. Finally take note of the **Client ID** and **Client Secret**.
+For using this app, you need to log into your Autodesk BIM360 account, and login to the associated project folder.
 
 ### Run locally
 
