@@ -1,4 +1,4 @@
-# Export to Excel
+# PLGS Export to Excel and JSON
 
 [![OAuth2](https://img.shields.io/badge/OAuth2-v1-green.svg)](http://developer.autodesk.com/)
 [![Data-Management](https://img.shields.io/badge/Data%20Management-v2-green.svg)](http://developer.autodesk.com/)
@@ -8,13 +8,13 @@
 
 # Description
 
-This sample application demonstrates how to extract Revit data on your BIM360 account, into an excel spreadsheet.  The sample code demonstates 3-legged OAuth to BIM360, a simple viewer extension and code to handle Revit meta-data and format it into an excel spreadsheet file.
+This sample application demonstrates how to extract Revit data on your BIM360 account, into an excel spreadsheet and JSON.  The sample code demonstates 3-legged OAuth to BIM360, a simple viewer extension and code to handle Revit meta-data and format it into an excel spreadsheet file.
 
 ### Live version
 
-[https://bim360xls.autodesk.io](https://bim360xls.autodesk.io/)
+[https://bim360toxls.herokuapp.com/](https://bim360toxls.herokuapp.com/)
 
-Video: [Youtube](https://youtu.be/800d2xmQl0s)
+
 
 # Setup
 
@@ -26,7 +26,7 @@ Install [NodeJS](https://nodejs.org).
 
 Clone this project or download it. It's recommended to install [GitHub desktop](https://desktop.github.com/). To clone it via command line, use the following (**Terminal** on MacOSX/Linux, **Git Shell** on Windows):
 
-    git clone https://github.com/wallabyway/bim360appstore-xls-exporter
+   
 
 To run it, install the required packages, set the enviroment variables with your client ID & secret and finally start it. Via command line, navigate to the folder where this repository was cloned and use the following:
 
@@ -79,16 +79,8 @@ After installing Github desktop for Windows, on the Git Shell, if you see a ***e
     git config --global http.sslverify "false"
 
 
-### Thumbnail
 
-![thumbnail](/BIM360DataToExcel.png)
-
-
-# License
-
-This sample is licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-Please see the [LICENSE](LICENSE) file for full details.
 
 ## Written by
 
-Forge Partner Development
+VIATechnik
