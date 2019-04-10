@@ -18,7 +18,7 @@ This application demonstrates how to extract Revit data on your BIM360 account, 
 
 # Setup
 
-For using this app, you need to log into your Autodesk BIM360 account, and login to the associated project folder.
+For using this app, you need to log into your Autodesk BIM360 account, and have access to the associated project folders.
 
 ### Run locally
 
